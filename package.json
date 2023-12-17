@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "html-validate": "^7.10.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-clean-order": "^2.1.0",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^5.0.0"
+  },
+  "dependencies": {
+    "uninstall": "^0.0.0"
+  }
+}

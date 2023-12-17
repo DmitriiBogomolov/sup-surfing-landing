@@ -1,0 +1,85 @@
+/*!
+	By André Rinas, www.andrerinas.de
+	Documentation, www.simplelightbox.de
+	Available for use under the MIT License
+	Version 2.11.0
+*/
+body.hidden-scroll{overflow:hidden}.sl-overlay{position:fixed;z-index:1035;top:0;right:0;bottom:0;left:0;
+
+display:none;
+
+background:#fff}.sl-wrapper{position:fixed;z-index:1040;top:0;left:0;
+
+width:100%;height:100%}.sl-wrapper *{box-sizing:border-box}.sl-wrapper button{cursor:pointer;
+
+padding:0;
+
+font-size:28px;
+
+background:transparent;border:0 none}.sl-wrapper button:hover{opacity:0.7}.sl-wrapper .sl-close{position:fixed;z-index:10060;top:30px;right:30px;
+
+display:none;
+
+width:44px;height:44px;margin-top:-14px;margin-right:-14px;
+
+font-family:Arial,Baskerville,monospace;font-size:3rem;line-height:44px;color:#000}.sl-wrapper .sl-counter{position:fixed;z-index:10060;top:30px;left:30px;
+
+display:none;
+
+font-size:1rem;color:#000}.sl-wrapper .sl-navigation{display:none;width:100%}.sl-wrapper .sl-navigation button{position:fixed;z-index:10060;top:50%;
+
+display:block;
+
+width:22px;height:44px;margin-top:-22px;
+
+font-family:Arial,Baskerville,monospace;line-height:44px;color:#000;text-align:center}.sl-wrapper .sl-navigation button.sl-next{right:5px;font-size:2rem}.sl-wrapper .sl-navigation button.sl-prev{left:5px;font-size:2rem}
+
+@media (min-width: 35.5em){.sl-wrapper .sl-navigation button{width:44px}.sl-wrapper .sl-navigation button.sl-next{right:10px;font-size:3rem}.sl-wrapper .sl-navigation button.sl-prev{left:10px;font-size:3rem}}
+
+@media (min-width: 50em){.sl-wrapper .sl-navigation button{width:44px}.sl-wrapper .sl-navigation button.sl-next{right:20px;font-size:3rem}.sl-wrapper .sl-navigation button.sl-prev{left:20px;font-size:3rem}}.sl-wrapper.sl-dir-rtl .sl-navigation{direction:ltr}.sl-wrapper .sl-image{-ms-touch-action:none;touch-action:none;position:fixed;z-index:10000}.sl-wrapper .sl-image img{display:block;
+
+width:100%;height:auto;margin:0;padding:0;
+
+border:0 none}
+
+@media (min-width: 35.5em){.sl-wrapper .sl-image img{border:0 none}}
+
+@media (min-width: 50em){.sl-wrapper .sl-image img{border:0 none}}.sl-wrapper .sl-image iframe{background:#000;border:0 none}
+
+@media (min-width: 35.5em){.sl-wrapper .sl-image iframe{border:0 none}}
+
+@media (min-width: 50em){.sl-wrapper .sl-image iframe{border:0 none}}.sl-wrapper .sl-image .sl-caption{position:absolute;right:0;bottom:0;left:0;
+
+display:none;
+
+padding:10px;
+
+font-size:1rem;color:#fff;
+
+background:rgba(0,0,0,0.8)}.sl-wrapper .sl-image .sl-caption.pos-top{top:0;bottom:auto}.sl-wrapper .sl-image .sl-caption.pos-outside{bottom:auto}.sl-wrapper .sl-image .sl-download{position:absolute;z-index:1060;right:5px;bottom:5px;
+
+display:none;
+
+color:#000}.sl-spinner{position:fixed;z-index:1007;top:50%;left:50%;
+
+display:none;
+
+width:40px;height:40px;margin:-20px 0 0 -20px;
+
+opacity:0;border:5px solid #333;border-radius:40px;
+
+-webkit-animation:pulsate 1s ease-out infinite;-moz-animation:pulsate 1s ease-out infinite;-ms-animation:pulsate 1s ease-out infinite;-o-animation:pulsate 1s ease-out infinite;animation:pulsate 1s ease-out infinite}.sl-scrollbar-measure{position:absolute;top:-9999px;
+
+overflow:scroll;
+
+width:50px;height:50px}.sl-transition{transition:-moz-transform ease 200ms;transition:-ms-transform ease 200ms;transition:-o-transform ease 200ms;transition:-webkit-transform ease 200ms;transition:transform ease 200ms}
+
+@-webkit-keyframes pulsate{0%{transform:scale(0.1);opacity:0.0}50%{opacity:1}100%{transform:scale(1.2);opacity:0}}
+
+@keyframes pulsate{0%{transform:scale(0.1);opacity:0.0}50%{opacity:1}100%{transform:scale(1.2);opacity:0}}
+
+@-moz-keyframes pulsate{0%{transform:scale(0.1);opacity:0.0}50%{opacity:1}100%{transform:scale(1.2);opacity:0}}
+
+@-o-keyframes pulsate{0%{transform:scale(0.1);opacity:0.0}50%{opacity:1}100%{transform:scale(1.2);opacity:0}}
+
+@-ms-keyframes pulsate{0%{transform:scale(0.1);opacity:0.0}50%{opacity:1}100%{transform:scale(1.2);opacity:0}}
