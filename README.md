@@ -1,5 +1,5 @@
 # sup-surfing-landing
-Просто адаптивный лендинг
+Адаптивный лендинг
 
 ![1](https://github.com/DmitriiBogomolov/sup_surfing_landing/blob/main/refs/1.png)
 ![2](https://github.com/DmitriiBogomolov/sup_surfing_landing/blob/main/refs/2.png)
